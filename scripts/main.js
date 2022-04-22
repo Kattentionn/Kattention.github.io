@@ -4,9 +4,10 @@ myImage.onclick = function () {
     let mySrc = myImage.getAttribute('src');
     if (mySrc === 'images/赵今麦.jpg') {
         myImage.setAttribute('src', 'images/童锦程.jpg');
-        myHeading.innerHTML = myName + '还是做渣男吧';
+        myHeading.innerHTML = '还是做渣男吧';
     } else {
         myImage.setAttribute('src', 'images/赵今麦.jpg');
+        myHeading.innerHTML = '赵今麦太美了';
     }
 }
 
